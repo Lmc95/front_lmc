@@ -1,0 +1,108 @@
+body { 
+    font-family: 'Kanit', serif;
+    font-weight: 200;
+}
+.scroll_off {
+    overflow: hidden;
+}
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    background-image: linear-gradient(270deg, #ffffff 0%, #bdbdbd 50%, #ffffff 100%);
+}
+main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 100;
+}
+header img {
+    margin-left: 20px;
+}
+
+/* BUTTON MENU (Header) */
+/* Open */
+.btn_open {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 5001;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+.line1, .line2, .line3 {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 30px;
+    height: 3px;
+    margin: 3px 0;
+    border-radius: 4px;
+}
+/* Close */
+.line2_close {
+    display: none;
+}
+.line1_close {
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 5002;
+}
+.line3_close {
+    transform: rotate(-45deg);
+    position: absolute;
+    z-index: 5003;
+}
+.nav_desktop {
+    display: none;
+}
+.nav_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 0;
+    position: fixed;
+    z-index: 4900;
+    margin-left: -100%;
+    transition: all .3s;
+    opacity: 0;
+    background: rgb(157,157,157);
+    background: linear-gradient(90deg, rgba(157,157,157,0.95) 25%, rgba(255,255,255,1) 100%);
+}
+.menu_nav {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav_header a {
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.35);
+}
+
+
+

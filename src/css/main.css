@@ -1,0 +1,317 @@
+.cover_main {
+    background-color: violet;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 101;
+}
+.cover_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 102;
+    background-image: url('/assets/images/bg/bg-light-0.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.cont_welcome {
+    position: relative;
+    z-index: 103;
+    text-align: center;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 90%;
+    padding: 5px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 3px;
+}
+.cont_welcome p:nth-child(2) {
+    font-size: 1.5rem;
+}
+.cont_welcome p span {
+    color: #ff5400;
+}
+
+.cont_profile {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 35px;
+}
+.profile_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo > img {
+    width: 150px;
+}
+.name_role {
+    margin-top: 20px;
+    text-align: center;
+}
+.name_role p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 100%;
+    margin: 0;
+}
+.name_role p:nth-child(2) {
+    font-size: 1.25rem;
+    font-weight: 200;
+    margin: 10px 0 15px;
+}
+.name_role p span {
+    color: #ff5400;
+}
+.networks_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.networks_name a {
+    margin: 0 10px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.75);
+    transition: ease-in-out .2s;
+}
+.networks_name a:hover {
+    color: #ff5400;
+}
+.about_me {
+    text-align: center;
+    width: 90%;
+    margin-top: 50px;
+}
+.about_me h4 {
+    margin: 25px 0;
+}
+.cont_cards {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont_projects {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(225, 225, 225);
+}
+.projects, .cont_techs {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont_projects > h4 {
+    margin: 75px 0 30px;
+}
+
+.body_card {
+    min-width: 200px;
+    min-height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.body_card > img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.info_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px 10px 5px;
+    margin-top: 10px;
+}
+.info_card p {
+    padding: 0;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.info_card p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.info_card .techs_card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+.info_card .techs_card img {
+    width: 30px;
+    margin-right: 10px;
+}
+.btn_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.btn_card a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.75);
+    transition: ease-in-out .2s;
+}
+.btn_card a:hover {
+    color: #ff5400;
+}
+.techs {
+    margin: 30px 0 15px;
+}
+.tech_ico {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.tech_ico img {
+    width: 50px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+.experience_formation {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+.experience_formation > h4 {
+    margin: 75px 0 30px;
+}
+
+.cont_experience, .cont_formation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.cont_formation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formation, .experience {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 20px 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.formation > img {
+    width: 70px;
+    margin-right: 5px;
+}
+.info_exp p, .info_form p {
+    padding: 0;
+    margin: 0 0 4px;
+    font-weight: 300;
+}
+.info_exp p:nth-child(1), .info_form p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+footer {
+    position: relative;
+    z-index: 4800;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 10px 25px;
+    background: rgb(157,157,157);
+    background-color: #ffffff;
+    background-color: #ffffff;
+    background-image: linear-gradient(270deg, #ffffff 0%, #bdbdbd 50%, #ffffff 100%);
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.cont_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo_footer > img {
+    width: 100px;
+    opacity: 90%;
+}
+.nav_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav_footer a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 10px;
+    transition: ease-in-out .3s;
+}
+.nav_footer a span {
+    color: #ff5400;
+}
+
+.networks_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.networks_footer a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.75);
+    transition: ease-in-out .2s;
+}
+.nav_footer a:hover, .networks_footer a:hover {
+    color: #ff5400;
+}
