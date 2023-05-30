@@ -41,6 +41,18 @@
         color: rgba(0, 0, 0, 0.75);
         transition: ease-in-out .2s;
     }
+    /* BOTON NIGHT */
+    .mode_night {
+        position: fixed;
+        margin-right: 510px;
+    }
+    .mode_light {
+        position: fixed;
+        margin-right: 510px;
+    }
+    .nav_desktop_night a {
+        color: rgba(255, 255, 255, 0.85);
+    }
     .network_header {
         display: flex;
         justify-content: center;
@@ -52,6 +64,9 @@
         margin: 0 8px;
         color: rgba(0, 0, 0, 0.75);
         transition: ease-in-out .2s;
+    }
+    .network_header_night a {
+        color: rgba(255, 255, 255, 0.85);
     }
     .network_header a:hover, .nav_desktop a:hover {
         color: #ff4500;

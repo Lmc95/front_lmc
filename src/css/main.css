@@ -1,5 +1,4 @@
 .cover_main {
-    background-color: violet;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -14,6 +13,9 @@
     background-position: center;
     background-size: cover;
 }
+.cover_img_night {
+    background-image: url('/assets/images/bg/bg-dark-2.jpg');
+}
 
 .cont_welcome {
     position: relative;
@@ -26,6 +28,10 @@
     font-weight: 300;
     color: rgba(0, 0, 0, 0.7);
     letter-spacing: 3px;
+}
+.cont_welcome_night {
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 .cont_welcome p:nth-child(2) {
     font-size: 1.5rem;
@@ -43,6 +49,10 @@
     align-items: center;
     padding: 50px 0 35px;
 }
+.cont_profile_night {
+    /* Black */
+    background-color: rgb(20, 20, 20);
+}
 .profile_one {
     display: flex;
     flex-direction: column;
@@ -55,6 +65,9 @@
 .name_role {
     margin-top: 20px;
     text-align: center;
+}
+.name_role_night {
+    color: rgba(255, 255, 255, 0.85);
 }
 .name_role p {
     font-size: 1.5rem;
@@ -70,6 +83,7 @@
 .name_role p span {
     color: #ff5400;
 }
+
 .networks_name {
     display: flex;
     justify-content: center;
@@ -80,6 +94,9 @@
     font-size: 1.3rem;
     color: rgba(0, 0, 0, 0.75);
     transition: ease-in-out .2s;
+}
+.networks_name_night a {
+    color: rgba(255, 255, 255, 0.85);
 }
 .networks_name a:hover {
     color: #ff5400;
@@ -92,6 +109,13 @@
 .about_me h4 {
     margin: 25px 0;
 }
+.about_me_night hr {
+    color: rgba(255, 255, 255, 0.75);
+}
+.about_me_night h4, .about_me_night p {
+    color: rgba(255, 255, 255, 0.85);
+}
+
 .cont_cards {
     width: 90%;
     display: flex;
@@ -106,6 +130,10 @@
     justify-content: flex-start;
     align-items: center;
     background-color: rgb(225, 225, 225);
+}
+.cont_projects_night {
+    /* Black */
+    background-color: rgb(10, 10, 10);
 }
 .projects, .cont_techs {
     width: 80%;
@@ -129,6 +157,9 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin-bottom: 50px;
+}
+.cont_projects_night .body_card {
+    border: 2px solid rgba(255, 255, 255, 0.15);
 }
 .body_card > img {
     width: 100%;
@@ -216,6 +247,10 @@
     align-items: center;
     background-color: rgb(240, 240, 240);
 }
+.experience_formation_night {
+    /* Black */
+    background-color: rgb(20, 20, 20);
+}
 .experience_formation > h4 {
     margin: 75px 0 30px;
 }
@@ -242,6 +277,9 @@
     padding: 20px 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
+}
+.cont_experience_night .experience, .cont_formation_night .formation {
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 .formation > img {
     width: 70px;
@@ -271,6 +309,11 @@ footer {
     background-image: linear-gradient(270deg, #ffffff 0%, #bdbdbd 50%, #ffffff 100%);
     border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
+.footer_night {
+    /* Black */
+    background-color: #000000;
+    background-image: linear-gradient(270deg, #000000 0%, #383838 50%, #000000 100%);
+}
 .cont_footer {
     display: flex;
     flex-direction: column;
@@ -296,6 +339,9 @@ footer {
     margin-bottom: 10px;
     transition: ease-in-out .3s;
 }
+.nav_footer_night a {
+    color: rgba(255, 255, 255, 0.85);
+}
 .nav_footer a span {
     color: #ff5400;
 }
@@ -311,6 +357,9 @@ footer {
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.75);
     transition: ease-in-out .2s;
+}
+.networks_footer_night a {
+    color: rgba(255, 255, 255, 0.85);
 }
 .nav_footer a:hover, .networks_footer a:hover {
     color: #ff5400;

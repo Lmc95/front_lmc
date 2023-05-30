@@ -19,6 +19,13 @@ header {
     background-color: #ffffff;
     background-image: linear-gradient(270deg, #ffffff 0%, #bdbdbd 50%, #ffffff 100%);
 }
+.header_night {
+    /* Black */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px black;
+    background-color: #000000;
+    background-image: linear-gradient(270deg, #000000 0%, #383838 50%, #000000 100%);
+}
 main {
     width: 100%;
     height: auto;
@@ -30,6 +37,29 @@ header img {
 }
 
 /* BUTTON MENU (Header) */
+/* Night */
+.mode_night {
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 5002;
+    right: 75px;
+}
+.mode_light {
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 5002;
+    right: 75px;
+}
 /* Open */
 .btn_open {
     width: 36px;
@@ -50,6 +80,9 @@ header img {
     height: 3px;
     margin: 3px 0;
     border-radius: 4px;
+}
+.btn_open_night .line1, .btn_open_night .line2, .btn_open_night .line3 {
+    background-color: rgba(255, 255, 255, 0.85);
 }
 /* Close */
 .line2_close {
@@ -102,6 +135,13 @@ header img {
     width: 200px;
     text-align: center;
     background-color: rgba(255,255,255, 0.35);
+}
+.nav_header_night {
+    background-color: #000000;
+    background-image: linear-gradient(270deg, #000000 0%, #383838 50%, #000000 100%);
+}
+.nav_header_night a {
+    color: white;
 }
 
 
